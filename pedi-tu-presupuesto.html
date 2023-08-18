@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedi tu presupuesto</title>
+    <link rel="shortcut icon" href="./img/isotipo-flookies.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="contenedor-pagina">
+        <header>
+            <!-- <img src="./img/logo-circulo.png" alt="Logo Flookies"> -->
+         
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+
+                    <li>
+                        <a href="catalogo.html">Catálogo</a>
+                        <ul class="desplegable">
+                            <li class=>
+                                <a href="ediciones-especiales.html">Ediciones Especiales</a>
+                                <!-- <ul class="desplegable">
+                                    <li><a href="dia-del-niño.html">Día del Niño</a></li>
+                                    <li><a href="dia-del-padre.html">Día del Padre</a></li>
+                                    <li><a href="dia-de-la-madre.html">Día de la Madre</a></li>
+                                    <li><a href="pascuas.html">Pascuas</a></li>
+                                    <li><a href="navidad.html">Navidad</a></li>
+                                </ul>
+                                -->
+                            </li>
+                            <li><a href="flookies-personalizadas.html">Flookies Personalizadas</a></li>
+                            <li><a href="kits-de-decoracion.html">Kits de Decoración</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="informacion.html">Información</a>
+                    </li>
+                    <li>
+                        <a href="pedi-tu-presupuesto.html">Pedir presupuesto</a>
+                    </li>
+                    <li>
+                        <a href="cursos.html">Cursos</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="formulario">
+                <h2>
+                    Pedí tu presupuesto
+                </h2>
+                <form action="#" method="post">
+                    <label for="nombre">
+                        <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+                    </label>
+
+                    <label for="email">
+                        <input type="email" id="email" name="email" placeholder="E-mail" required>
+                    </label>
+
+                    <label for="fecha">Fecha
+                        <input type="date" id="fecha" name="fecha" required>
+                    </label>
+
+                    <label for="departamento">
+
+                        <select id="departamento" name="departamento" aria-placeholder="Departamento" required>
+                            <option value="" disabled selected>Seleccione un departamento</option>
+                            <option value="Artigas">Artigas</option>
+                            <option value="Canelones">Canelones</option>
+                            <option value="Cerro Largo">Cerro Largo</option>
+                            <option value="Colonia">Colonia</option>
+                            <option value="Durazno">Durazno</option>
+                            <option value="Flores">Flores</option>
+                            <option value="Florida">Florida</option>
+                            <option value="Lavalleja">Lavalleja</option>
+                            <option value="Maldonado">Maldonado</option>
+                            <option value="Montevideo">Montevideo</option>
+                            <option value="Paysandú">Paysandú</option>
+                            <option value="Río Negro">Río Negro</option>
+                            <option value="Rivera">Rivera</option>
+                            <option value="Rocha">Rocha</option>
+                            <option value="Salto">Salto</option>
+                            <option value="San José">San José</option>
+                            <option value="Soriano">Soriano</option>
+                            <option value="Tacuarembó">Tacuarembó</option>
+                            <option value="Treinta y Tres">Treinta y Tres</option>
+                        </select>
+                    </label>
+
+                    <label for="cantidad">
+                        <input type="number" id="cantidad" name="cantidad" min="12" placeholder="Cantidad (unidades)" required>
+                    </label>
+
+
+                    <label for="mensaje">
+                        <textarea id="mensaje" name="mensaje" placeholder="Mensaje"></textarea>
+                    </label>
+
+                    <label for="archivo">
+                        <input type="file" id="archivo" name="archivo" placeholder="Seleccionar Archivo
+                    ">
+                    </label>
+
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </main>
+        <footer>
+            <p>Todos los derechos reservados</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>
